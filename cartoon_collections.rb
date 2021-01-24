@@ -31,7 +31,7 @@ def is_anyone_vegetarian(list_of_dietary_restrictions)
 end
  
 
-is_anyone_vegetarian (["ksdhfjksdhf"])
+is_anyone_vegetarian(["ksdhfjksdhf"])
 
 
 
