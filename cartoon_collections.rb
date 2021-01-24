@@ -8,17 +8,20 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
-  new_array = planeteer_calls
-  planeteer_calls.each {
-    |planeteer|  "#{planeteer}""!".capitalize
-  }
- return new_array
+  
+planeteer_calls.map { |array| array.upcase }
 
 end
-
-
-
+   
 summon_captain_planet planeteer_calls =  ["carrot", "cucumber", "pepper"]
+
+
+
+
+
+planeteer_calls.map { |array| array.upcase }
+
+
 
 
 def long_planteer_calls(planeteer_calls)
