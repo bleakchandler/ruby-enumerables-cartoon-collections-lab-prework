@@ -1,20 +1,40 @@
 def roll_call_dwarves(dwarves)
-  dwarves.each_with_index {|dwarf, index| puts "#{index +1}. #{dwarf}"}
+index = 0
+dwarves.each {|dwarve|
+    puts  "#dwarve", "blach"  }
+index += 1
 end
 
-def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map { |planeteer| planeteer.capitalize + "!" }
+
+
+
+def roll_call_dwarves(dwarves)
+ dwarves.each_with_index {|dwarf, index| puts "#{index +1}. #{dwarf}"}
+end	end
+roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
+
+
+
+
+
+def reverse_each_word(sentence)
+  new_sentence = []
+sentence.split.each {|word|
+     new_sentence  << word.reverse}
+new_sentence.join(" ")
 end
 
-def long_planteer_calls(planeteer_calls)
-  planeteer_calls.any? do |call|
-  call.length > 4
-  end
+
+
+def summon_captain_planet# code an argument here
+  # Your code here
 end
 
-def find_the_cheese(snacks)
+def long_planeteer_calls# code an argument here
+  # Your code here
+end
+
+def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.find do |item|
-    cheese_types.include?(item)
-  end
+end
