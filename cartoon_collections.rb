@@ -44,11 +44,11 @@ end
 def find_the_cheese(cheese)
   cheese.each {
     |index| if index == "cheddar"
-    return "cheddar"
+    puts "cheddar"
     if index == "gouda"
-    return "gouda"
+    puts "gouda"
     if index == "camembert"
-    return "camembert"
+    puts "camembert"
   end
   }
   return "No cheese found"
