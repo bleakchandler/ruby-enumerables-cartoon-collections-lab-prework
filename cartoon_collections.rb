@@ -12,6 +12,10 @@ def summon_captain_planet(planeteer_calls)
 planeteer_calls.map { |array| "#{array}!".capitalize }
 
 end
+
+
+
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
    
 #summon_captain_planet planeteer_calls =  ["carrot", "cucumber", "pepper"]
 
