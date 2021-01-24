@@ -21,7 +21,7 @@ end
 
 
 
-def is_anyone_vegetarian?(list_of_dietary_restrictions)
+def is_anyone_vegetarian(list_of_dietary_restrictions)
   i = 0 
   list_of_dietary_restrictions { |bob|
     puts "#bob"
