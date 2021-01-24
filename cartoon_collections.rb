@@ -54,5 +54,5 @@ end
 
 find_the_cheese new_cheese = ["garlic", "rosemary", "bread"]
 
-snacks = ["crackers", "gouda", "thyme"]
+#snacks = ["crackers", "gouda", "thyme"]
 find_the_cheese(cheese)
