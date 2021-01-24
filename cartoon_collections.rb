@@ -11,7 +11,7 @@ end
 
 def roll_call_dwarves(dwarf)
 dwarf.each {|word|
-     puts "#word"}
+     puts "blah blah #word"}
 
 end
 
