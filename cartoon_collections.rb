@@ -41,7 +41,18 @@ end
 
 
 
- v
+def find_the_cheese(new_cheese)
+  
+   new_cheese.each {
+    |index| if index == "cheddar"
+    return "#{index}!"
+  end
+  }
+ return "No cheese found!"
+  
+end
+
+find_the_cheese new_cheese = ["sdfd", "rosemary", "cheddar"]
 
 snacks = ["crackers", "gouda", "thyme"]
 find_the_cheese(cheese)
