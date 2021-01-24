@@ -43,8 +43,8 @@ end
 
 def find_the_cheese(cheese)
   cheese.each {
-    |index| if index == "crackers" 
-    return true
+    |index| if index == "cheddar"
+    return "cheddar"
   end
   }
   return false
