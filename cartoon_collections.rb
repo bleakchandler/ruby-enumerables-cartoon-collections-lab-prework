@@ -8,6 +8,7 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
+  new_array = planeteer_calls.split
   planeteer_calls.each {
     |planeteer| puts "#{planeteer}!"
   }
