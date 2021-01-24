@@ -21,7 +21,7 @@ roll_call_dwarves dwarves = (["Dopey", "Grumpy", "Bashful"])
 
 
 
-def introduction name
+def introduction (name)
   puts "Hi, my name is #{name}."
 end
 
