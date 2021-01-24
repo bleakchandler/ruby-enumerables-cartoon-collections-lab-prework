@@ -30,6 +30,11 @@ end
 
 
 
+short_words = ["puff", "go", "two"]
+long_planeteer_calls(short_words)
+
+
+
 
 def find_the_cheese(snacks)
   
