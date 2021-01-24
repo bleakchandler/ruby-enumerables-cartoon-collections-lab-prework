@@ -15,3 +15,7 @@ end
 
 
 
+def long_planteer_calls(planeteer_calls)
+  
+end
+
