@@ -45,12 +45,12 @@ def find_the_cheese(new_cheese)
   
    new_cheese.each {
     |index| if index == "cheddar" 
-  ||  if index == "gouda"
-   || if index == "camembert"
+  else if index == "gouda"
+  else if index == "camembert"
     return "#{index}!"
   end
   }
-  return false
+ return "No cheese found!"
   
 end
 
