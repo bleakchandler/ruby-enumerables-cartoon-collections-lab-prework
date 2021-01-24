@@ -13,7 +13,7 @@ def roll_call_dwarves(dwarf)
   new_sentence = []
 dwarf.split.each {|word|
      new_sentence  << word}
-new_sentence.join(" ")
+puts new_sentence
 end
 
 roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
