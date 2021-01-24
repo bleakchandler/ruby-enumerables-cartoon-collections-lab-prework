@@ -42,16 +42,10 @@ end
 
 
 def find_the_cheese(new_cheese)
-  puts "new_cheese"
-  new_cheese.each {
-    |index|
-    return "test"
-    if index == "cheddar"
-    puts "cheddar"
-    else if index == "gouda"
-    puts "gouda"
-    else if index == "camembert"
-    puts "camembert"
+  
+   new_cheese.each {
+    |index| if index.length > 4 
+    return true
   end
   }
   return false
