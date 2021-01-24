@@ -41,10 +41,17 @@ end
 
 
 
-def find_the_cheese(snacks)
+def find_the_cheese(cheese)
+  cheese.each {
+    |index| if index == "crackers" 
+    return true
+  end
+  }
+  return false
   
 end
 
 
 
-
+snacks = ["crackers", "gouda", "thyme"]
+find_the_cheese(snacks)
