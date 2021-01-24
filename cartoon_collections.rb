@@ -48,7 +48,7 @@ def find_the_cheese(new_cheese)
     return "#{index}"
   end
   }
- return "No cheese found!"
+ return nil
   
 end
 
