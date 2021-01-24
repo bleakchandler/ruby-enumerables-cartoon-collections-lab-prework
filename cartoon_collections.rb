@@ -48,11 +48,11 @@ def find_the_cheese(new_cheese)
     return "#{index}!"
   end
   }
- return "No cheese found!"
+  return false
   
 end
 
-find_the_cheese new_cheese = ["cheddar", "rosemary", "bread"]
+find_the_cheese new_cheese = ["sdfd", "rosemary", "bread"]
 
 snacks = ["crackers", "gouda", "thyme"]
 find_the_cheese(cheese)
