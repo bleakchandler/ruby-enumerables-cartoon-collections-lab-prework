@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  num = "huh"
+  num = 0
   dwarves.each {
     |dwarf, num| puts "#{num}. #{dwarf}"
   
