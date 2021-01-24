@@ -33,6 +33,7 @@ def long_planeteer_calls(planeteer_calls)
   end
   }
   return false
+  p "hi"
 
 
 end
