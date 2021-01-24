@@ -7,7 +7,7 @@ end
 
 
 
-roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
+roll_call_dwarves (["Dopey", "Grumpy", "Bashful"])
 
 
 
