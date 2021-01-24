@@ -47,6 +47,8 @@ def find_the_cheese(cheese)
     return "cheddar"
     if index == "gouda"
     return "gouda"
+    if index == "camembert"
+    return "camembert"
   end
   }
   return false
