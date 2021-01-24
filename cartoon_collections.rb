@@ -13,7 +13,7 @@ roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
 
 
 def roll_call_dwarves(dwarf)
-dwarf.each {|word|
+dwarf {|word|
      puts "blah blah #word"}
 
 end
