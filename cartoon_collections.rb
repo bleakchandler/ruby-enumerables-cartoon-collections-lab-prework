@@ -1,8 +1,11 @@
 def roll_call_dwarves(word)
-sentence.split.each {|word|
-    puts "#word" }
+sentence.each {|words|
+    puts "#words" }
 end
-end
+
+
+
+roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
 
 
 
