@@ -30,6 +30,17 @@ def is_anyone_vegetarian(list_of_dietary_restrictions)
   end
 end
  
+ 
+ 
+myname = "Bleak"
+
+def introduction name
+  puts "Hi, my name is #{name}."
+end
+
+introduction myname = "Bleak"
+
+ 
 
 is_anyone_vegetarian = (["ksdhfjksdhf"])
 
