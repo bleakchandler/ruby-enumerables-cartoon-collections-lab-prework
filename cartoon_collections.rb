@@ -52,5 +52,5 @@ def find_the_cheese(new_cheese)
   
 end
 
-snacks = ["crackers", "gouda", "thyme"]
-find_the_cheese(snacks)
+#snacks = ["crackers", "gouda", "thyme"]
+#find_the_cheese(snacks)
