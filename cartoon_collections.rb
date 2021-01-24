@@ -52,7 +52,7 @@ def find_the_cheese(new_cheese)
   
 end
 
-find_the_cheese new_cheese = ["garlic", "rosemary", "bread"]
+find_the_cheese new_cheese = ["sdfd", "rosemary", "bread"]
 
 snacks = ["crackers", "gouda", "thyme"]
 find_the_cheese(cheese)
