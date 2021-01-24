@@ -43,7 +43,9 @@ end
 
 def find_the_cheese(cheese)
   cheese.each {
-    |index| if index == "cheddar"
+    |index|
+    p "test"
+    if index == "cheddar"
     puts "cheddar"
     else if index == "gouda"
     puts "gouda"
