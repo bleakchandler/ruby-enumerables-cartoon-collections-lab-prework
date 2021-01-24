@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
-  num = "sdfjksjfkjsdf"
+  new_word = "sdfjksjfkjsdf"
   dwarves.each {
-    |dwarf, num| puts "#{num}. #{dwarf}"
+    |dwarf, num| puts "#{new_word}. #{dwarf}"
   
   }
   
