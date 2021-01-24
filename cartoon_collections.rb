@@ -58,4 +58,4 @@ end
 
 
 snacks = ["crackers", "gouda", "thyme"]
-find_the_cheese(snacks)
+find_the_cheese(cheese)
