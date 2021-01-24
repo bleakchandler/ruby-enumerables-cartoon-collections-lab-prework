@@ -1,13 +1,23 @@
 def roll_call_dwarves(dwarves)
 index = 0
-word.each {|dwarves, index|
-    puts "#index", "#dwarves"  }
+dwarves.each {|dwarve, index|
+    puts "#index", "#dwarve"  }
 index += 1
 end
 
 
-
 roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
+
+
+
+
+
+def reverse_each_word(sentence)
+  new_sentence = []
+sentence.split.each {|word|
+     new_sentence  << word.reverse}
+new_sentence.join(" ")
+end
 
 
 
