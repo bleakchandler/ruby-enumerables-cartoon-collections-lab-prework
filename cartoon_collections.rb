@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   
-planeteer_calls.map { |array| array.upcase }
+planeteer_calls.map { |array| array.capitalize }
 
 end
    
