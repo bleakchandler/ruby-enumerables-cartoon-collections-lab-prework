@@ -7,8 +7,6 @@ end
 
 
 
-roll_call_dwarves dwarves = (["Dopey", "Grumpy", "Bashful"])
-
 
 
 
@@ -18,7 +16,16 @@ dwarf {|word|
 
 end
 
+roll_call_dwarves dwarves = (["Dopey", "Grumpy", "Bashful"])
 
+
+
+
+def introduction name
+  puts "Hi, my name is #{name}."
+end
+
+introduction myname = "Bleak"
 
 
 def is_anyone_vegetarian(list_of_dietary_restrictions)
@@ -35,11 +42,7 @@ end
 
  
 
-def introduction name
-  puts "Hi, my name is #{name}."
-end
 
-introduction myname = "Bleak"
 
  
 
