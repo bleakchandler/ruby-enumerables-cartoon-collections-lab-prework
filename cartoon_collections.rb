@@ -10,9 +10,9 @@ end
 def summon_captain_planet(planeteer_calls)
   new_array = []
   planeteer_calls.split.each {
-    |planeteer|  new_array << "#{planeteer}!".capitalize
-  }
-  new_array.join("")
+    |planeteer|  new_array << planeteer.capitalize
+  }.join("")
+
 end
 
 
