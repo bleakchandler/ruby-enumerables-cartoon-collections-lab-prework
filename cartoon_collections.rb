@@ -6,3 +6,6 @@ def roll_call_dwarves(dwarves)
   index +=1
 end
 
+
+
+roll_call_dwarves dwarves = (["Dopey", "Grumpy", "Bashful"])
