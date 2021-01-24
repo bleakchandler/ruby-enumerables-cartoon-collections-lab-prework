@@ -10,8 +10,8 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
-  dwarves.each {
-    |dwarf, num| puts "#{planeteer_calls}!"
+  planeteer_calls.each {
+    |planeteer| puts "#{planeteer}!"
   }
 end
 
