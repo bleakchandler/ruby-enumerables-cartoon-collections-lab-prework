@@ -4,7 +4,6 @@ def roll_call_dwarves(dwarves)
     |dwarf, num| puts "#{order}. #{dwarf}"
   order += 1
   }
-  
 end
 
 
