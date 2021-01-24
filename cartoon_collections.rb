@@ -28,8 +28,9 @@ def long_planeteer_calls(planeteer_calls)
 
   planeteer_calls.each {
     |index| if index.length >= 4 
+     p "the word is #{index}"
     return true
-    p "the word is #{index}"
+   
   end
   }
   return false
