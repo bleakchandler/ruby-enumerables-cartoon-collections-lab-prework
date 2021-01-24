@@ -43,8 +43,8 @@ end
 
 def find_the_cheese(new_cheese)
   
-   new_cheese.each {
-    |index| if index == "cheddar"
+   new_cheese.each.any? {
+    |index| "cheddar"
     return "#{index}"
   end
   }
