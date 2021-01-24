@@ -10,10 +10,9 @@ end
 
 
 def roll_call_dwarves(dwarf)
-  new_sentence = []
-dwarf.split.each {|word|
-     new_sentence  << word}
-puts new_sentence
+dwarf.each {|word|
+     puts word}
+
 end
 
 roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
