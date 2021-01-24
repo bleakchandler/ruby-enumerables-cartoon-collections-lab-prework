@@ -8,6 +8,19 @@ end
 
 
 
+
+def roll_call_dwarves(dwarf)
+  new_sentence = []
+dwarf.split.each {|word|
+     new_sentence  << word}
+new_sentence.join(" ")
+end
+
+roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
+
+
+
+
 def roll_call_dwarves(dwarves)
  dwarves.each_with_index {|dwarf, index| puts "#{index +1}. #{dwarf}"}
 end	end
