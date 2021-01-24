@@ -44,7 +44,7 @@ end
 def find_the_cheese(new_cheese)
   
    new_cheese.each {
-    |index| if index.length > 4 
+    |index| if index == "garlic" 
     return true
   end
   }
