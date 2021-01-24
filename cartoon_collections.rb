@@ -27,7 +27,7 @@ end
 def long_planteer_calls(planeteer_calls)
 
   planeteer_calls.each {
-    |index| if planeteer_calls[index] >= 4 
+    |index| if index.length >= 4 
     return true
   end
   }
