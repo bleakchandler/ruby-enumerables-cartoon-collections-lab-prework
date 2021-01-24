@@ -51,7 +51,7 @@ def find_the_cheese(cheese)
     return "camembert"
   end
   }
-  return false
+  return "No cheese found"
   
 end
 
