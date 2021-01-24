@@ -22,7 +22,7 @@ roll_call_dwarves dwarves = (["Dopey", "Grumpy", "Bashful"])
 
 
 def introduction (name)
-  puts "Hi, my name is #{name}."
+  dwarf.each {|word| puts "Hi, my name is #{word}."}
 end
 
 introduction myname = ["Dopey", "Grumpy", "Bashful"]
