@@ -24,7 +24,21 @@ end
 
 
 
- v
+def long_planteer_calls(planeteer_calls)
+
+  planeteer_calls.each {
+    |index| if planeteer_calls[index] >= 4 
+    return true
+  end
+  }
+  return false
+
+
+end
+
+
+long_planeteer_calls planeteer_calls = ["puff", "go", "two"]
+
 
 
 
