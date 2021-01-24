@@ -18,7 +18,7 @@ end
 
 
 
-summon_captain_planet planeteer_calls =  ("carrot" "cucumber" "pepper")
+summon_captain_planet planeteer_calls =  ("carrot cucumber pepper")
 
 
 def long_planteer_calls(planeteer_calls)
