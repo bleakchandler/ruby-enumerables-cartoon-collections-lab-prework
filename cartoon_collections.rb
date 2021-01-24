@@ -23,18 +23,17 @@ end
 
 def is_anyone_vegetarian?(list_of_dietary_restrictions)
   i = 0 # set up a i for the enumeration of the dietary restriction collection
-  while i < list_of_dietary_restrictions.length do # a loop for each dietary restriction
+  list_of_dietary_restrictions.length do |bob| # a loop for each dietary restriction
     # Stop enumerating and return true if any dietary restriction is
     # equal to 'vegetarian'
-    if list_of_dietary_restrictions[i] == "vegetarian"
-      return true
+    puts "#bob"
     end
     i += 1
   end
-  return false
 end
  
 
+is_anyone_vegetarian = ["ksdhfjksdhf"]
 
 
 
