@@ -7,6 +7,9 @@ end
 
 
 
+roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
+
+
 
 
 def roll_call_dwarves(dwarf)
@@ -14,9 +17,6 @@ dwarf.each {|word|
      puts "blah blah #word"}
 
 end
-
-roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
-
 
 
 
