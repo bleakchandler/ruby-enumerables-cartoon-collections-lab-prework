@@ -28,15 +28,10 @@ def long_planeteer_calls(planeteer_calls)
 
   planeteer_calls.each {
     |index| if index.length > 4 
-
     return true
-   
   end
   }
   return false
- 
-
-
 end
 
 
