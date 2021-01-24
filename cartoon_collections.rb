@@ -12,7 +12,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.split.each {
     |planeteer|  new_array << "#{planeteer}""!".capitalize
   }
- retunr new_array
+ return new_array
 
 end
 
