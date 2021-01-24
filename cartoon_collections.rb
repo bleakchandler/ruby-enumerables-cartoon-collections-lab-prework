@@ -42,6 +42,7 @@ end
 
 
 def find_the_cheese(new_cheese)
+  puts "new_cheese"
   new_cheese.each {
     |index|
     puts "test"
