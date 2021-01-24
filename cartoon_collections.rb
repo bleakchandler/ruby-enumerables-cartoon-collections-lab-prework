@@ -9,4 +9,3 @@ end
 
 
 
-roll_call_dwarves dwarves = (["Dopey", "Grumpy", "Bashful"])
