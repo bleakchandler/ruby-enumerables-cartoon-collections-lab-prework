@@ -25,7 +25,7 @@ def introduction name
   puts "Hi, my name is #{name}."
 end
 
-introduction myname = (["Dopey", "Grumpy", "Bashful"])
+introduction myname = ["Dopey", "Grumpy", "Bashful"]
 
 
 def is_anyone_vegetarian(list_of_dietary_restrictions)
