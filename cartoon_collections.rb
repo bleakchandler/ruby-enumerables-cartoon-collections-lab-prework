@@ -1,5 +1,5 @@
 def roll_call_dwarves(word)
-sentence.each {|words|
+word.each {|words|
     puts "#words" }
 end
 
