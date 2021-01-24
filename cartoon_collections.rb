@@ -41,8 +41,8 @@ end
 
 
 
-def find_the_cheese(cheese)
-  cheese.each {
+def find_the_cheese(new_cheese)
+  new_cheese.each {
     |index|
     puts "test"
     if index == "cheddar"
