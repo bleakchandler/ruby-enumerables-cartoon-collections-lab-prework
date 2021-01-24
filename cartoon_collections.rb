@@ -13,14 +13,7 @@ planeteer_calls.map { |array| "#{array}!".capitalize }
 
 end
    
-summon_captain_planet planeteer_calls =  ["carrot", "cucumber", "pepper"]
-
-
-
-
-
-planeteer_calls.map { |array| array.upcase }
-
+#summon_captain_planet planeteer_calls =  ["carrot", "cucumber", "pepper"]
 
 
 
