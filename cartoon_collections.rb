@@ -45,6 +45,8 @@ def find_the_cheese(new_cheese)
   
    new_cheese.each {
     |index| if index == "cheddar" 
+  else if index == "gouda"
+  else if index == "camembert"
     return "#{index}!"
   end
   }
@@ -52,7 +54,7 @@ def find_the_cheese(new_cheese)
   
 end
 
-find_the_cheese new_cheese = ["cheddar", "rosemary", "bread"]
+find_the_cheese new_cheese = ["sdfd", "rosemary", "bread"]
 
 snacks = ["crackers", "gouda", "thyme"]
 find_the_cheese(cheese)
