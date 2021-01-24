@@ -36,7 +36,7 @@ end
 
 
 
-#long_planeteer_calls planeteer_calls = ["puff", "go", "two"]
+long_planeteer_calls planeteer_calls = ["puff", "go", "two"]
 
 
 
