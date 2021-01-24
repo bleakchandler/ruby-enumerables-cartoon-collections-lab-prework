@@ -36,9 +36,7 @@ def long_planteer_calls(planeteer_calls)
 end
 
 
-
-short_words = ["puff", "go", "two"]
-long_planeteer_calls(short_words)
+long_planeteer_calls short_words = ["puff", "go", "two"]
 
 
 
