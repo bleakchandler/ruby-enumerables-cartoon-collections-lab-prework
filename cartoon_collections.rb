@@ -15,7 +15,7 @@ def roll_call_dwarves(dwarves)
 end
 
 
-roll_call_dwarves dwarves = (["Dopey", "Grumpy", "Bashful"])
+roll_call_dwarves(dwarves) = (["Dopey", "Grumpy", "Bashful"])
 
 
 
