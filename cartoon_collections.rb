@@ -5,6 +5,7 @@ end
 end
 
 
+roll_call_dwarves = ["Dopey", "Grumpy", "Bashful"]
 
 
 
